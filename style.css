@@ -93,3 +93,24 @@ p {
   padding: 20px 15px;
   text-decoration: none;
 }
+#contact {
+  margin-bottom: 50px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
